@@ -1,0 +1,27 @@
+{
+  "name": "piotrpress/wordpress-router",
+  "type": "library",
+  "license": "MIT",
+  "description": "This library adds WordPress routing to PHP built-in web server",
+  "homepage": "https://github.com/PiotrPress/wordpress-router",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://piotr.press"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wp", "router", "routing", "php", "php built-in web server", "web server", "server"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\WordPress\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
